@@ -1,0 +1,350 @@
+
+@media only screen and (max-width: 480px) {
+
+    
+}
+
+
+body{
+    background-color: aliceblue;
+}
+
+header{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:aliceblue;
+}
+.logo{
+    margin-right: auto;
+}
+
+
+
+.navbar ul li{
+    display: inline-flex;
+    text-decoration: none;
+    padding: 20px;
+    color: #57574b;
+    text-align: center;
+}
+ul a{
+    text-decoration: none;
+}
+ul a:hover{
+    background: #d2d046;
+    padding: 10px;
+    transition: 1s;
+}
+
+/*Engineer IMage*/
+
+
+.first{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    background-color: #d2d046;
+    overflow:hidden;
+}
+
+.engineer-img img{
+    height: 600px;
+    width: 1000px;
+}
+
+#engimg-content h2{
+   margin-top: 200px;
+   padding: 100px;
+   padding-top: 0%;
+   font-size: 30px;
+   font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.description{
+    background-color: aliceblue;
+}
+.des-content{
+   margin-right: 500px;
+   margin-left: 500px;
+   text-align: center; 
+   font-weight: lighter;
+}
+
+/*PRODUCT AND SERVICES*/
+.productsservices{
+    background-color: #d4d4d457;
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.products{
+    margin-right: 3auto;
+    height: 350px;
+    width: 400px;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.products:hover{
+    height: 600px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+
+.products img{
+    max-width: 400px;
+    height: 270px;
+    
+}
+
+.product-img{
+    max-width: 400px;
+}
+
+.pro-text{
+ padding: 20px;
+ display: flex;
+ flex-direction: column;
+}
+
+.pro-text button{
+    background-color: black;
+    color: #d2d046;
+    padding: 10px;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+.pro-text button:hover{
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.services{
+    margin-left: 100px;
+    height: 350px;
+    width: 400px;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.services-img {
+    max-width: 400px;
+}
+
+.services-img img{
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.services-text{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.services-text button{
+    background-color: black;
+    color: #d2d046;
+    padding: 10px;
+    border: 0px;
+    cursor: pointer;
+
+}
+
+.services-text button:hover{
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.services:hover{
+    height: 600px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.items{
+    background-color: #d2d046;
+}
+
+.items h3{
+    text-align: center ;
+}
+
+
+/*Projects*/
+.projects-container{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects{
+    margin-top: 20px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    background: #d2d046;
+
+}  
+
+
+
+input{
+    border-radius: 3px;
+    padding: 5px;
+
+}
+input:focus{
+   outline: none;
+}
+
+
+.button{
+    background-color: #d2d046;
+    padding: 10px ;
+    width: 100px;
+    border: 0px;
+    margin-bottom: 20px;
+}
+
+.button:hover{
+    width: 110px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+/*footer style*/
+
+footer{
+    background: #050505ab;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts{
+    padding-right: 200px;
+}
+
+.contacts ul li{
+    list-style: none;
+    line-height: 50px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.textinpt{
+    border: 0px;
+}
+
+.newsletter h1{
+    color: rgb(195, 194, 194);
+    
+}
+
+
+.newsletter p{
+    color: rgb(195, 194, 194);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*search and contact logo
+.material-icons{
+    padding: 10px;
+    color: #d2d046;
+}
+.icons{
+  margin-right: 20px;  
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*search and contact logo
+.material-icons{
+    padding: 10px;
+    color: #d2d046;
+}
+.icons{
+  margin-right: 20px;  
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+   background-color: aliceblue;
+}*/
