@@ -42,6 +42,10 @@ ul a:hover{
     transition: 1s;
 }
 
+.mailto:hover{
+    text-decoration: none;
+    background: none;
+}
 /*Engineer IMage*/
 
 
