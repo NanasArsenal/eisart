@@ -4,22 +4,33 @@ form{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding: 100px;
+    padding: 20px;
 
 }
 
-form input,textarea{
+form input{
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+}
+
+
+
+textarea{
     width: 400px;
     margin-bottom: 20px;
     border: none;
 }
 body{
-    background: rgb(220, 229, 236);
+    background: rgb(234, 243, 250);
 }
 
 .contact-card{
-    margin-left: 500px;
-    margin-right: 500px;
+    padding-top: 60px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    margin-right: 600px;
     background-color: #d2d046;
     border-radius: 1rem;
 }
@@ -28,7 +39,7 @@ body{
 button{
     background-color: black;
     color: #d2d046;
-    width:1rem;
+    width: 7rem;
     padding: 10px;
     border: 0px;
     cursor: pointer;
@@ -37,5 +48,5 @@ button{
 
 button:hover{
     padding: 15px;
-    transition: 2s;
+    transition: 0.1s;
 }
